@@ -1,3 +1,14 @@
+# Reproducer Project
+GitHub issue: https://github.com/quarkusio/quarkus/issues/9589
+
+Simply execute `build.sh`
+
+Steps to reproduce
+1. Start postgres DB with docker-compose file, execute `scripts/start-containers.sh` file
+2. Compile native-image and execute process
+3. and run curl.sh to execute requests and it will throw the error described in issue
+
+
 # jdbc-jackson-temp project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
